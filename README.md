@@ -1,5 +1,7 @@
 **Automated Incremental Backup with Dropbox Upload and Email Alerts** 
+
 Overview 
+
 This project is a Python-based backup solution that performs incremental backups of your local data folder, compresses the backup into a zip file, uploads the backup to Dropbox cloud storage, and sends email alerts for success, skipped backup, or failure. It includes:
 
 Incremental backup logic (only new or changed files are backed up)
